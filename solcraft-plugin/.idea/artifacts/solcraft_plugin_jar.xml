@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="solcraft-plugin:jar">
+    <output-path>$PROJECT_DIR$/../.mc/plugins</output-path>
+    <root id="archive" name="solcraft-plugin.jar">
+      <element id="module-output" name="solcraft-plugin" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.1.20-RC/kotlin-stdlib-jdk8-2.1.20-RC.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.1.20-RC/kotlin-stdlib-jdk7-2.1.20-RC.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/26.0.1/annotations-26.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.20-RC/kotlin-stdlib-2.1.20-RC.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

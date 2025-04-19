@@ -1,0 +1,46 @@
+name: solcraft-plugin
+version: '1.0-SNAPSHOT'
+main: me.acimovic.solcraftPlugin.SolcraftPlugin
+api-version: '1.21'
+author: YourName
+description: A brief description of your plugin
+
+commands:
+  howmany:
+    description: Counts how many diamonds are in a player's inventory.
+    usage: /howmany [playerName]
+    permission: solanaminecraft.howmany
+  setwallet:
+    description: Link your Minecraft account to a Solana wallet
+    usage: /setwallet <wallet-address>
+    permission: solanaminecraft.setwallet
+  unlinkwallet:
+    description: Unlink your Solana wallet from your Minecraft account
+    usage: /unlinkwallet
+    permission: solanaminecraft.unlinkwallet
+  mywallet:
+    description: Check which wallet is linked to your account
+    usage: /mywallet
+    permission: solanaminecraft.mywallet
+  balance:
+    description: Check your token balance
+    usage: /balance
+    permission: solanaminecraft.balance
+  soltrade:
+    description: Trade diamonds for Solana tokens
+    usage: /soltrade <amount_of_diamonds>
+    permission: solanaminecraft.soltrade
+
+permissions:
+  solanaminecraft.setwallet:
+    default: true
+  solanaminecraft.unlinkwallet:
+    default: true
+  solanaminecraft.howmany:
+    default: true
+  solanaminecraft.mywallet:
+    default: true
+  solanaminecraft.balance:
+    default: true
+  solanaminecraft.soltrade:
+    default: true
